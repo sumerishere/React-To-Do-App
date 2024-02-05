@@ -36,7 +36,7 @@ function App() {
       <center className="to-do-container">
         <AppName />
         <AddToDo onNewItem={handleNewItem}></AddToDo>
-        <TodoContainer toDoItems={toDoItemsArr}></TodoContainer>
+        <TodoContainer toDoItems={toDoItems}></TodoContainer>
       </center>
     </>
   );
